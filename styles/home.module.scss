@@ -1,0 +1,12 @@
+
+
+.section{
+    height: 100vh;
+    border: 10px solid black;
+
+    &Main{
+        background: url('/bg/screen_1_bg.jpg') center no-repeat no-repeat;
+        background-size: cover;
+
+    }
+}
