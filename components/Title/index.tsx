@@ -4,11 +4,14 @@ import cl from "classnames";
 
 interface TitleProps {
   children: React.ReactNode;
-  size?: "medium" | "large";
+  size?: "Medium" | "Large";
 }
 
-export const Title: React.FC<TitleProps> = ({ children, size = "medium" }) => {
+
+
+export const Title: React.FC<TitleProps> = ({ children, size = "Medium" }) => {
+
   return (  
-     <h2 className={cl()}>{children}</h2>
+     <h2 className={cl(styles.title, styles[`title${size}`])}>{children}</h2>
   );
 };

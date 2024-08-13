@@ -1,0 +1,44 @@
+
+
+.socialNetworks{
+    display: flex;
+    gap: 3vw;
+
+    &Item{
+
+    }
+
+    &Link{
+        color: white;
+        text-indent: -1234em;
+        display: inline-block;
+        width: 1.8rem;
+        height: 1.8rem;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: 100% auto;
+
+        &:hover,
+        &:visited{
+            color: white;
+        }
+    }
+
+    &DisCord{
+        background-image: url('./images/logos_discord-icon.svg');
+    }
+
+    &Twitter{
+        background-image: url('./images/logos_twitter.svg');
+        background-size: 90% auto;
+
+    }
+
+    &AntDesign{
+        background-image: url('./images/ant-design_medium-circle-filled.svg');
+    }
+
+
+}
+
+
